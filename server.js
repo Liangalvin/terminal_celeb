@@ -14,7 +14,6 @@ app.get('/', function(req, res){
   res.json({msg: GabrielAldana});
 });
 
-app.listen(3000);
 console.log('listening on port 3000!');
 
 app.get('/Alex_Rodriguez', function(req, res){
@@ -28,3 +27,5 @@ app.get('/Alex_Emmanuel_Rodriguez', function(req, res){
 app.get('/:anything', function(reg, res){
   res.json({incorrect: "Dirt on your face! You're wrong dirt bag"});
 })
+
+app.listen(3000);
