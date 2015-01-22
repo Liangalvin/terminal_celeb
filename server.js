@@ -7,7 +7,8 @@ var GabrielAldana = {
   played: "first base, shortstop, thirdbase, DH",
   drafted: "1993",
   home_runs_2007: 54,
-  mlb_debut: 1994
+  mlb_debut: 1994,
+  team: "Currently a Yankee"
 }
 
 app.get('/', function(req, res){
