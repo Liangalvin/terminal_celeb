@@ -3,7 +3,7 @@ require 'HTTParty'
 puts "What is the ip address?"
 ip = gets.chomp
 
-url = "#{ip}"
+url = ip
 #myurl = "http://alvin.princesspeach.nyc:3000"
 #url = "http://localhost:3000/"
 response = HTTParty.get(url)
