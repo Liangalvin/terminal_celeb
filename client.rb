@@ -8,7 +8,7 @@ url = "#{ip}"
 #url = "http://localhost:3000/"
 response = HTTParty.get(url)
 
-puts "This is your hint #{response['GabrielAldana']}"
+puts response
 
 continue = true
 while continue
@@ -26,6 +26,5 @@ while continue
   else
     puts "#{response['incorrect']}"
     continue = true
-
   end
 end
